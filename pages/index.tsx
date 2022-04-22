@@ -5,6 +5,7 @@ import TimelineDescription from 'components/TimelineDescription'
 import TimelineHeader from 'components/TimelineHeader'
 import TimelineItem from 'components/TimelineItem'
 import Navbar from "../components/Navbar";
+import SocialActivities from "../components/SocialActivities";
 
 const Home: NextPage = () => {
   return (
@@ -85,6 +86,29 @@ const Home: NextPage = () => {
               </Time>
               <TimelineHeader>Velkommen</TimelineHeader>
               <TimelineDescription>I den store salen</TimelineDescription>
+            </TimelineItem>
+            <TimelineItem>
+              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                16:00
+              </Time>
+              <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
+              <TimelineDescription>
+                  <SocialActivities/>
+              </TimelineDescription>
+            </TimelineItem>
+          </ol>
+        </div>
+        <div className="text-2xl dark:text-white" id="sunday">
+          <h2>Søndag</h2>
+          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+            <TimelineItem>
+              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                --:--
+              </Time>
+              <TimelineHeader>TBA</TimelineHeader>
+              <TimelineDescription>
+
+              </TimelineDescription>
             </TimelineItem>
           </ol>
         </div>
