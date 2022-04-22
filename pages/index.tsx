@@ -101,9 +101,9 @@ const Home: NextPage = () => {
             <TimelineItem>
               <Time>16:00</Time>
               <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
-              <TimelineDescription>
+              <div className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">
                 <SocialActivities />
-              </TimelineDescription>
+              </div>
             </TimelineItem>
             <TimelineItem>
               <Time>19:30</Time>
