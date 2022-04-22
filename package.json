@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && touch out/.nojekyll",
+    "build": "next build",
+    "build:prod": "GH_PAGES=true next build && next export && touch out/.nojekyll",
     "start": "next start"
   },
   "dependencies": {
