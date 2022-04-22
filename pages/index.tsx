@@ -9,10 +9,10 @@ import SocialActivities from '../components/SocialActivities'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center  py-2 dark:bg-gray-800">
+    <div className="dark:bg-gray-800 flex min-h-screen flex-col  items-center py-2">
       <Head>
         <title>Camp Flåm 2022 | Miles</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/gif" href="/favicon.gif" sizes="32x32" />
       </Head>
 
       <main>
@@ -21,11 +21,11 @@ const Home: NextPage = () => {
           <span className="dark:text-white">Velkommen til </span>
           <span className="text-red-600">Miles Camp Flåm!</span>
         </h1>
-        <div className="text-2xl dark:text-white" id="friday">
+        <div className="dark:text-white text-2xl" id="friday">
           <h2>Frivillig Fredag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="border-gray-200 dark:border-gray-700 relative border-l">
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 17:00
               </Time>
               <TimelineHeader>Avreise Miles</TimelineHeader>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 21:00
               </Time>
               <TimelineHeader>Middag</TimelineHeader>
@@ -52,11 +52,11 @@ const Home: NextPage = () => {
             </TimelineItem>
           </ol>
         </div>
-        <div className="text-2xl dark:text-white" id="saturday">
+        <div className="dark:text-white text-2xl" id="saturday">
           <h2>Lørdag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="border-gray-200 dark:border-gray-700 relative border-l">
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 06:30
               </Time>
               <TimelineHeader>Avreise Miles</TimelineHeader>
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 08:00
               </Time>
               <TimelineHeader>Frokost</TimelineHeader>
@@ -81,14 +81,14 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 09:30
               </Time>
               <TimelineHeader>Velkommen</TimelineHeader>
               <TimelineDescription>I den store salen</TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 16:00
               </Time>
               <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
@@ -98,11 +98,11 @@ const Home: NextPage = () => {
             </TimelineItem>
           </ol>
         </div>
-        <div className="text-2xl dark:text-white" id="sunday">
+        <div className="dark:text-white text-2xl" id="sunday">
           <h2>Søndag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <ol className="border-gray-200 dark:border-gray-700 relative border-l">
             <TimelineItem>
-              <Time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <Time className="text-gray-400 dark:text-gray-500 mb-1 text-sm font-normal leading-none">
                 --:--
               </Time>
               <TimelineHeader>TBA</TimelineHeader>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t dark:text-white">
+      <footer className="dark:text-white flex h-24 w-full items-center justify-center border-t">
         Laget med ❤️ av komitéen. Neste år ønsker vi oss gjerne en designer med
         i på laget!
       </footer>
