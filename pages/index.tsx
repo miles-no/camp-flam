@@ -4,8 +4,8 @@ import Time from 'components/Time'
 import TimelineDescription from 'components/TimelineDescription'
 import TimelineHeader from 'components/TimelineHeader'
 import TimelineItem from 'components/TimelineItem'
-import Navbar from "../components/Navbar";
-import SocialActivities from "../components/SocialActivities";
+import Navbar from '../components/Navbar'
+import SocialActivities from '../components/SocialActivities'
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Navbar/>
+        <Navbar />
         <h1 className="text-6xl font-bold">
           <span className="dark:text-white">Velkommen til </span>
           <span className="text-red-600">Miles Camp Flåm!</span>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
               </Time>
               <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
               <TimelineDescription>
-                  <SocialActivities/>
+                <SocialActivities />
               </TimelineDescription>
             </TimelineItem>
           </ol>
@@ -106,9 +106,7 @@ const Home: NextPage = () => {
                 --:--
               </Time>
               <TimelineHeader>TBA</TimelineHeader>
-              <TimelineDescription>
-
-              </TimelineDescription>
+              <TimelineDescription></TimelineDescription>
             </TimelineItem>
           </ol>
         </div>
