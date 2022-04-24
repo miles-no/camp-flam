@@ -6,6 +6,7 @@ import TimelineHeader from 'components/TimelineHeader'
 import TimelineItem from 'components/TimelineItem'
 import Navbar from '../components/Navbar'
 import SocialActivities from '../components/SocialActivities'
+import Tracks from "../components/Tracks";
 
 const Home: NextPage = () => {
   return (
@@ -80,7 +81,7 @@ const Home: NextPage = () => {
             <TimelineItem>
               <Time>09:45</Time>
               <TimelineHeader>Fagspor</TimelineHeader>
-              <TimelineDescription>TODO</TimelineDescription>
+              <Tracks />
             </TimelineItem>
             <TimelineItem>
               <Time>12:30</Time>
@@ -101,9 +102,7 @@ const Home: NextPage = () => {
             <TimelineItem>
               <Time>16:00</Time>
               <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
-              <div className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">
-                <SocialActivities />
-              </div>
+              <SocialActivities />
             </TimelineItem>
             <TimelineItem>
               <Time>19:30</Time>
