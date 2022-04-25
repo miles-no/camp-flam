@@ -6,7 +6,7 @@ import TimelineHeader from 'components/TimelineHeader'
 import TimelineItem from 'components/TimelineItem'
 import Navbar from '../components/Navbar'
 import SocialActivities from '../components/SocialActivities'
-import Tracks from "../components/Tracks";
+import Tracks from '../components/Tracks'
 
 const Home: NextPage = () => {
   return (
@@ -138,13 +138,9 @@ const Home: NextPage = () => {
               <TimelineHeader>Pause</TimelineHeader>
               <TimelineDescription></TimelineDescription>
             </TimelineItem>
+
             <TimelineItem>
               <Time>11:30</Time>
-              <TimelineHeader>Pause</TimelineHeader>
-              <TimelineDescription></TimelineDescription>
-            </TimelineItem>
-            <TimelineItem>
-              <Time>12:00</Time>
               <TimelineHeader>
                 Keynote Neuro/technology - From foundations to the future |
                 <span className=""> Hannah og Marius</span>
