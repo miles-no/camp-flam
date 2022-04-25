@@ -23,40 +23,39 @@ const Home: NextPage = () => {
           <span className="dark:text-white">Program</span>
         </h1>
         <div className="dark:text-white" id="friday">
-          <h2 className="text-lg">Frivillig Fredag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-lg">Frivillig Fredag</h2>
+          <ol className="relative ml-2 border-l border-gray-200 dark:border-gray-700 sm:ml-0">
             <TimelineItem>
               <Time>17:00</Time>
               <TimelineHeader>Avreise Miles</TimelineHeader>
               <TimelineDescription>
                 Bussen går presis! Det blir litt å drikke og snacks ombord i
-                bussen
+                bussen.
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
               <Time>20:30</Time>
               <TimelineHeader>Ankomst Flåm</TimelineHeader>
               <TimelineDescription>
-                Innsjekking på rommene, hipp hurra
+                Vi legger til rette for en mest mulig smidig innsjekk ved
+                ankomst.
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time>21:00</Time>
+              <Time>21:00 | tbd</Time>
               <TimelineHeader>Middag</TimelineHeader>
-              <TimelineDescription>
-                Hvor skal middagen være mon tro?
-              </TimelineDescription>
+              <TimelineDescription>I hotellrestauranten</TimelineDescription>
             </TimelineItem>
           </ol>
         </div>
         <div className=" dark:text-white" id="saturday">
-          <h2 className="text-lg">Lørdag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-lg">Lørdag</h2>
+          <ol className="relative ml-2 border-l border-gray-200 dark:border-gray-700 sm:ml-0">
             <TimelineItem>
               <Time>06:30</Time>
               <TimelineHeader>Avreise Miles</TimelineHeader>
               <TimelineDescription>
-                For de som kommer om lørdagen
+                For de som reiser om lørdagen
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
@@ -75,8 +74,8 @@ const Home: NextPage = () => {
             </TimelineItem>
             <TimelineItem>
               <Time>09:30</Time>
-              <TimelineHeader>Velkommen</TimelineHeader>
-              <TimelineDescription>I den store salen</TimelineDescription>
+              <TimelineHeader>Velkommen | Blåskavlen</TimelineHeader>
+              {/*  <TimelineDescription>I den store salen</TimelineDescription> */}
             </TimelineItem>
             <div id="fag" />
             <TimelineItem>
@@ -107,31 +106,39 @@ const Home: NextPage = () => {
             </TimelineItem>
             <TimelineItem>
               <Time>19:30</Time>
-              <TimelineHeader>Aperitif i Ægir Bryggeripub</TimelineHeader>
+              <TimelineHeader>Aperitif | Ægir Bryggeripub</TimelineHeader>
               <TimelineDescription>
-                Cirka 50 meter og gå fra hotellet
+                Cirka 50 meter og gå fra hotellet. Her blir det to smaksglass
+                med øl, eller alkoholfritt alternativ.
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
               <Time>20:00</Time>
-              <TimelineHeader>Vikingfestmiddag</TimelineHeader>
+              <TimelineHeader>
+                Ægir Vikinggilde| Peisestuen til Ægir
+              </TimelineHeader>
               <TimelineDescription>
-                I peisestuen til Ægir, midt mellom puben og hotellet :)
+                Peisestuen finner du midt mellom puben og hotellet. Dette er et
+                vikinginspirert måltid, der vi i ekte vikingstil får all mat
+                servert på bordet i skåler og på fat.
               </TimelineDescription>
             </TimelineItem>
           </ol>
         </div>
         <div className="dark:text-white" id="sunday">
-          <h2 className="text-lg">Søndag</h2>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-lg">Søndag</h2>
+          <ol className="relative ml-2 border-l border-gray-200 dark:border-gray-700 sm:ml-0">
             <TimelineItem>
               <Time>09:30</Time>
-              <TimelineHeader>God morgen v/Kate</TimelineHeader>
+              <TimelineHeader>God morgen | Blåskavlen</TimelineHeader>
+              <span className="text-sm font-normal italic dark:text-white">
+                Kate
+              </span>
               <TimelineDescription></TimelineDescription>
             </TimelineItem>
             <TimelineItem>
               <Time>09:45</Time>
-              <TimelineHeader>Lyntaler</TimelineHeader>
+              <TimelineHeader>Lyntaler | Blåskavlen</TimelineHeader>
               <TimelineDescription></TimelineDescription>
             </TimelineItem>
             <TimelineItem>
@@ -144,8 +151,11 @@ const Home: NextPage = () => {
               <Time>11:30</Time>
               <TimelineHeader>
                 Keynote Neuro/technology - From foundations to the future |
-                <span className=""> Hannah og Marius</span>
+                Blåskavlen
               </TimelineHeader>
+              <span className="text-sm font-normal italic dark:text-white">
+                Hannah og Marius Gerdes
+              </span>
               <KeynoteDescription />
             </TimelineItem>
 
@@ -155,20 +165,20 @@ const Home: NextPage = () => {
             </TimelineItem>
             <TimelineItem>
               <Time>13:30</Time>
-              <TimelineHeader>Avslutning</TimelineHeader>
+              <TimelineHeader>Avslutning | Blåskavlen</TimelineHeader>
             </TimelineItem>
             <TimelineItem>
               <Time>13:45</Time>
               <TimelineHeader>Buss hjem</TimelineHeader>
               <TimelineDescription>
-                Ha det bra og takk for nå
+                Ankomst Bergen cirka 16:30-17:00
               </TimelineDescription>
             </TimelineItem>
           </ol>
         </div>
       </main>
 
-      <footer className="text-gray:700 mx-auto flex h-24 w-full max-w-7xl items-center justify-center border-t px-2 text-sm dark:text-white sm:px-6 lg:px-8 ">
+      <footer className="mx-auto mt-24 flex h-24 w-full max-w-7xl items-center justify-center border-t px-2 text-center text-sm text-gray-500 dark:text-gray-400 dark:text-white sm:px-6 lg:px-8 ">
         Laget med ❤️ av komitéen. Neste år ønsker vi oss gjerne en designer med
         i på laget!
       </footer>
