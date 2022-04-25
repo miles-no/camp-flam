@@ -51,6 +51,7 @@ const Tracks = () => {
           <Participant>Shangavi</Participant>
           <Participant>Anders</Participant>
           <Participant>Ann Kristin</Participant>
+          <Participant>Lene</Participant>
         </ol>
       </div>
       <div>
@@ -64,6 +65,7 @@ const Tracks = () => {
           Dette fagsporet passer best for teknologer/utviklere. Det vil bli noe utvikling mot utstyret som Marius har med, så PC er nødvendig utstyr.
         </TrackDescription>
         <ol>
+          <Participant>Malin</Participant>
           <Participant>Dag Erik</Participant>
           <Participant>Arvid</Participant>
           <Participant>Petter</Participant>
@@ -76,9 +78,8 @@ const Tracks = () => {
           <Participant>Jan-Helge</Participant>
           <Participant>Thomas Hatlebrekke</Participant>
           <Participant>Yngve Aas</Participant>
-          <Participant>Havard</Participant>
+          <Participant>Håvard</Participant>
           <Participant>Øyvind Johannessen</Participant>
-          <Participant>Vegard</Participant>
         </ol>
       </div>
       <div>
@@ -101,6 +102,9 @@ const Tracks = () => {
           <Participant>Alexander</Participant>
           <Participant>Wenche</Participant>
           <Participant>Joseph</Participant>
+          <Participant>Knut</Participant>
+          <Participant>Frank</Participant>
+          <Participant>Vegard</Participant>
         </ol>
       </div>
     </div>

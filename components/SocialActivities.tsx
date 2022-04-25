@@ -40,7 +40,25 @@ const SocialActivities = () => {
         </ActivityDescription>
         <ol>
           <Participant>Wenche</Participant>
-          <Participant>Wenche</Participant>
+          <Participant>Krister</Participant>
+          <Participant>Teis</Participant>
+          <Participant>Malin</Participant>
+          <Participant>Robert</Participant>
+          <Participant>Frode</Participant>
+          <Participant>Thomas Hatlebrekke</Participant>
+          <Participant>Lene</Participant>
+          <Participant>Richard</Participant>
+          <Participant>Shangavi</Participant>
+          <Participant>Anders</Participant>
+          <Participant>Vegard</Participant>
+          <Participant>Thomas Fauskanger</Participant>
+          <Participant>Ann Kristin</Participant>
+          <Participant>Vermund</Participant>
+          <Participant>Olav</Participant>
+          <Participant>Knut</Participant>
+          <Participant>Clementine</Participant>
+          <Participant>Lars Eirik</Participant>
+          <Participant>Jan-Helge</Participant>
         </ol>
       </div>
       <div>
@@ -59,15 +77,14 @@ const SocialActivities = () => {
           Fusce ultrices risus magna, eget euismod nisl sollicitudin id.
         </ActivityDescription>
         <ol>
-          <Participant>Alexander Castillo</Participant>
-          <Participant>Pär Wiger</Participant>
-          <Participant>Martin Hebnes Pedersen</Participant>
-          <Participant>Dag Erik Løvgren</Participant>
-          <Participant>Petter Thorgersen</Participant>
-          <Participant>Paal Kristian Minne</Participant>
+          <Participant>Alexander</Participant>
+          <Participant>Julian</Participant>
+          <Participant>Martin</Participant>
+          <Participant>Dag Erik</Participant>
+          <Participant>Petter</Participant>
+          <Participant>Paal</Participant>
           <Participant>Stian Fauskanger</Participant>
-          <Participant>Kate Henriksen</Participant>
-          <Participant>Julian P. M. Ertel</Participant>
+          <Participant>Kate</Participant>
         </ol>
       </div>
       <div>
@@ -87,6 +104,17 @@ const SocialActivities = () => {
         </ActivityDescription>
         <ol>
           <Participant>Ken-Thomas</Participant>
+          <Participant>Arvid</Participant>
+          <Participant>Stian Skauge</Participant>
+          <Participant>Håvard</Participant>
+          <Participant>Yngve Aas</Participant>
+          <Participant>Karoline</Participant>
+          <Participant>Birte</Participant>
+          <Participant>Øyvind Almli</Participant>
+          <Participant>Øyvind Johannessen</Participant>
+          <Participant>Marius - Miles Venn</Participant>
+          <Participant>Hannah - Miles Venn</Participant>
+          <Participant>Frank</Participant>
         </ol>
       </div>
       <div>
@@ -106,6 +134,7 @@ const SocialActivities = () => {
         </ActivityDescription>
         <ol>
           <Participant>Jan Frode</Participant>
+          <Participant>Joseph</Participant>
         </ol>
       </div>
     </div>
