@@ -4,7 +4,7 @@ import TimelineDescription from 'components/TimelineDescription'
 
 export default function KeynoteDescription() {
   return (
-    <Disclosure as="nav" className="dark:bg-gray-800">
+    <Disclosure as="div" className="dark:bg-gray-800">
       {({ open }) => (
         <>
           <div>

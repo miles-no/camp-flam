@@ -14,6 +14,10 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen flex-col items-center  dark:bg-gray-800 ">
       <Head>
         <title>Camp Flåm 2022 | Miles</title>
+        <meta
+          name="description"
+          content="Nysgjerrig på hva du skal i helgen? Her finner du hele programmet"
+        />
         <link rel="icon" type="image/gif" href="/favicon.gif" sizes="32x32" />
       </Head>
 
@@ -77,7 +81,6 @@ const Home: NextPage = () => {
               <TimelineHeader>Velkommen | Blåskavlen</TimelineHeader>
               {/*  <TimelineDescription>I den store salen</TimelineDescription> */}
             </TimelineItem>
-            <div id="fag" />
             <TimelineItem>
               <Time>09:45</Time>
               <TimelineHeader>Fagspor</TimelineHeader>
