@@ -40,7 +40,17 @@ const Tracks = () => {
           Hanne har vært med på flere camper tidligere og fått gode tilbakemeldinger, her er det bare å hive seg med!
         </TrackDescription>
         <ol>
-          <Participant>Santa</Participant>
+          <Participant>Clementine</Participant>
+          <Participant>Julian</Participant>
+          <Participant>Robert</Participant>
+          <Participant>Ken Thomas</Participant>
+          <Participant>Kate</Participant>
+          <Participant>Martin</Participant>
+          <Participant>Jan Frode</Participant>
+          <Participant>Thomas Fauskanger</Participant>
+          <Participant>Shangavi</Participant>
+          <Participant>Anders</Participant>
+          <Participant>Ann Kristin</Participant>
         </ol>
       </div>
       <div>
@@ -54,7 +64,21 @@ const Tracks = () => {
           Dette fagsporet passer best for teknologer/utviklere. Det vil bli noe utvikling mot utstyret som Marius har med, så PC er nødvendig utstyr.
         </TrackDescription>
         <ol>
-          <Participant>Santa</Participant>
+          <Participant>Dag Erik</Participant>
+          <Participant>Arvid</Participant>
+          <Participant>Petter</Participant>
+          <Participant>Oyvind Almli</Participant>
+          <Participant>Lars Eirik</Participant>
+          <Participant>Krister</Participant>
+          <Participant>Richard</Participant>
+          <Participant>Stian Skauge</Participant>
+          <Participant>Teis</Participant>
+          <Participant>Jan-Helge</Participant>
+          <Participant>Thomas Hatlebrekke</Participant>
+          <Participant>Yngve Aas</Participant>
+          <Participant>Havard</Participant>
+          <Participant>Oyvind Johannessen</Participant>
+          <Participant>Vegard</Participant>
         </ol>
       </div>
       <div>
@@ -67,7 +91,16 @@ const Tracks = () => {
           Dette er et tverrfaglig tema og passer for alle, fra designere (universell utforming), arkitekter, prosjektledere, salg, til programmere. Frank Fardal som kommer besøk til oss er fagdirektør hos DigDir og har vært instrumentell i utviklingen av ID-porten og de andre tillits-tjenestene.
         </TrackDescription>
         <ol>
-          <Participant>Santa</Participant>
+          <Participant>Karoline Raudstein</Participant>
+          <Participant>Paal</Participant>
+          <Participant>Birte</Participant>
+          <Participant>Frode</Participant>
+          <Participant>Olav</Participant>
+          <Participant>Vermund</Participant>
+          <Participant>Stian Fauskanger</Participant>
+          <Participant>Alexander</Participant>
+          <Participant>Wenche</Participant>
+          <Participant>Joseph</Participant>
         </ol>
       </div>
     </div>
