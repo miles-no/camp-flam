@@ -10,9 +10,5 @@ const ghPagesSettings =
 
 module.exports = {
   reactStrictMode: true,
-  i18n: {
-    locales: ['no'],
-    defaultLocale: 'no',
-  },
   ...ghPagesSettings,
 }
