@@ -183,7 +183,7 @@ const Home: NextPage = () => {
 
       <footer className="border-slate-60 mx-auto mt-24 flex h-24 w-full max-w-7xl items-center justify-center border-t px-2 text-center text-sm text-gray-500 dark:text-gray-400 dark:text-white sm:px-6 lg:px-8 ">
         Laget med ❤️ av komitéen. Neste år ønsker vi oss gjerne en designer med
-        i på laget!
+        på laget!
       </footer>
     </div>
   )
