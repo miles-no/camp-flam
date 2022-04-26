@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           name="description"
           content="Nysgjerrig på hva du skal i helgen? Her finner du hele programmet"
         />
-        <link rel="icon" type="image/gif" href="/favicon.gif" sizes="32x32" />
+        <link rel="icon" type="image/gif" href={process.env.GH_PAGES === 'true' ? "/camp-flam/favicon.gif" :"/favicon.gif"} sizes="32x32" />
       </Head>
 
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
