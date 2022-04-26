@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
-        <h1 className="my-4 text-2xl font-bold lg:text-4xl">
+        <h1 className="my-4 text-2xl font-bold lg:my-12 lg:text-4xl">
           <span className="dark:text-white">Program</span>
         </h1>
         <div className="dark:text-white" id="friday">
