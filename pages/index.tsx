@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
-        <h1 className="my-4 text-2xl font-bold lg:my-12 lg:text-4xl">
+        <h1 className="my-4 text-2xl font-bold md:my-8 lg:my-12 lg:text-4xl">
           <span className="dark:text-white">Program</span>
         </h1>
         <div className="dark:text-white" id="friday">
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           </ol>
         </div>
         <div className=" dark:text-white" id="saturday">
-          <h2 className="mb-4 text-lg">Lørdag</h2>
+          <h2 className="mb-4 mt-10 text-lg">Lørdag</h2>
           <ol className="relative ml-2 border-l border-gray-200 dark:border-gray-700 sm:ml-0">
             <TimelineItem>
               <Time>06:30</Time>
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
           </ol>
         </div>
         <div className="dark:text-white" id="sunday">
-          <h2 className="mb-4 text-lg">Søndag</h2>
+          <h2 className="mb-4 mt-10 text-lg">Søndag</h2>
           <ol className="relative ml-2 border-l border-gray-200 dark:border-gray-700 sm:ml-0">
             <TimelineItem>
               <Time>09:30</Time>
@@ -181,7 +181,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="mx-auto mt-24 flex h-24 w-full max-w-7xl items-center justify-center border-t px-2 text-center text-sm text-gray-500 dark:text-gray-400 dark:text-white sm:px-6 lg:px-8 ">
+      <footer className="border-slate-60 mx-auto mt-24 flex h-24 w-full max-w-7xl items-center justify-center border-t px-2 text-center text-sm text-gray-500 dark:text-gray-400 dark:text-white sm:px-6 lg:px-8 ">
         Laget med ❤️ av komitéen. Neste år ønsker vi oss gjerne en designer med
         i på laget!
       </footer>
