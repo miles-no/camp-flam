@@ -38,7 +38,7 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time>20:30</Time>
+              <Time>~19:45</Time>
               <TimelineHeader>Ankomst Flåm</TimelineHeader>
               <TimelineDescription>
                 Vi legger til rette for en mest mulig smidig innsjekk ved
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time>21:00 | tbd</Time>
+              <Time>20:45</Time>
               <TimelineHeader>Middag</TimelineHeader>
               <TimelineDescription>I hotellrestauranten</TimelineDescription>
             </TimelineItem>
