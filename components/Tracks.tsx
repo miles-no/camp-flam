@@ -79,7 +79,7 @@ const Tracks = () => {
       </div>
       <div>
         <TrackTitle>Digitalisering i offentlig sektor</TrackTitle>
-        <TrackPresenter>Frank Fardal</TrackPresenter>
+        <TrackPresenter>Frank Fardal og Malin Rygg</TrackPresenter>
         <TrackDescription>
           Ta med dere selv så har dere alt dere trenger ✨
         </TrackDescription>
