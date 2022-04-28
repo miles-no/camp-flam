@@ -9,13 +9,9 @@ const TrackTitle = ({ children }: React.HTMLAttributes<HTMLLIElement>) => {
 const TrackDescription = ({
   children,
 }: React.HTMLAttributes<HTMLLIElement>) => {
-  return null
-  /*
-    Do we need this?
-    return (
-        <p className="text-sm font-normal dark:text-white">{children}</p>
-    )
-     */
+  return (
+      <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">{children}</p>
+  )
 }
 
 const TrackPresenter = ({ children }: React.HTMLAttributes<HTMLLIElement>) => {

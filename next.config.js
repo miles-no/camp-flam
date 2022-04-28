@@ -10,5 +10,8 @@ const ghPagesSettings =
 
 module.exports = {
   reactStrictMode: true,
+    env: {
+      BUILD_TIME: new Date().toISOString(),
+    },
   ...ghPagesSettings,
 }

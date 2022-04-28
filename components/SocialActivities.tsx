@@ -12,9 +12,7 @@ const ActivityDescription = ({
   children,
 }: React.HTMLAttributes<HTMLLIElement>) => {
     return (
-        <Accordion>
-            <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">{children}</p>
-        </Accordion>
+            <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-300 lg:text-base">{children}</p>
     )
 }
 
