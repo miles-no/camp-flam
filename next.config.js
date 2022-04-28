@@ -8,10 +8,19 @@ const ghPagesSettings =
       }
     : {}
 
+const buildTime = new Date().toLocaleString('no', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+});
+
+
 module.exports = {
   reactStrictMode: true,
     env: {
-      BUILD_TIME: new Date().toISOString(),
+      BUILD_TIME: buildTime,
     },
   ...ghPagesSettings,
 }

@@ -10,16 +10,6 @@ import Tracks from '../components/Tracks'
 import KeynoteDescription from '../components/KeynoteDescription'
 
 const Home: NextPage = () => {
-
-  const buildTimeDate: Date =  new Date(Date.parse(process.env.BUILD_TIME ?? ''));
-  const buildTime: string = buildTimeDate.toLocaleString('no', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-  });
-
   return (
     <div className="flex min-h-screen flex-col items-center  dark:bg-gray-800 ">
       <Head>
@@ -34,7 +24,7 @@ const Home: NextPage = () => {
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
         <span className=" text-gray-500 dark:text-gray-400">
-          Sist oppdatert: {buildTime}
+          Sist oppdatert: {process.env.BUILD_TIME}
         </span>
         <h1 className="my-4 text-2xl font-bold md:my-8 lg:my-12 lg:text-4xl">
           <span className="dark:text-white">Program</span>
