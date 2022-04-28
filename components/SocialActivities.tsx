@@ -29,7 +29,7 @@ const SocialActivities = () => {
       <div>
         <ActivityTitle>RIB og ostesmaking</ActivityTitle>
         <ActivityDescription>
-          Dere får utdelt overlevelsesdrakt, men husk å kle dere etter vind og vær.
+          Dere får utdelt overlevelsesdrakt, men husk å kle dere etter vær og vind.
         </ActivityDescription>
         <ol>
           <Participant>Wenche</Participant>
