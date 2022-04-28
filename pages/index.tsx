@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Time from 'components/Time'
 import TimelineDescription from 'components/TimelineDescription'
 import TimelineHeader from 'components/TimelineHeader'
@@ -12,15 +11,6 @@ import KeynoteDescription from '../components/KeynoteDescription'
 const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center  dark:bg-gray-800 ">
-      <Head>
-        <title>Camp Flåm 2022 | Miles</title>
-        <meta
-          name="description"
-          content="Nysgjerrig på hva du skal i helgen? Her finner du hele programmet"
-        />
-        <link rel="icon" type="image/gif" href={process.env.GH_PAGES === 'true' ? "/camp-flam/favicon.gif" :"/favicon.gif"} sizes="32x32" />
-      </Head>
-
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
         <span className=" text-gray-500 dark:text-gray-400">
