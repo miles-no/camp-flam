@@ -7,15 +7,14 @@ import Navbar from '../components/Navbar'
 import SocialActivities from '../components/SocialActivities'
 import Tracks from '../components/Tracks'
 import KeynoteDescription from '../components/KeynoteDescription'
+import LastUpdated from "../components/LastUpdated";
 
 const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center  dark:bg-gray-800 ">
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
-        <span className=" text-gray-500 dark:text-gray-400">
-          Sist oppdatert {process.env.BUILD_TIME}
-        </span>
+        <LastUpdated />
         <h1 className="my-4 text-2xl font-bold md:my-8 lg:my-12 lg:text-4xl">
           <span className="dark:text-white">Program</span>
         </h1>
