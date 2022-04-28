@@ -142,6 +142,31 @@ const Home: NextPage = () => {
               <Time>09:45</Time>
               <TimelineHeader>Lyntaler | Blåskavlen</TimelineHeader>
               <TimelineDescription></TimelineDescription>
+              <TimelineItem>
+                <Time>09:45</Time>
+                <TimelineHeader>Lene Sørensen</TimelineHeader>
+                <TimelineDescription>Overraskelsestema</TimelineDescription>
+              </TimelineItem>
+              <TimelineItem>
+                <Time>10:00</Time>
+                <TimelineHeader>Julian Ertel</TimelineHeader>
+                <TimelineDescription>"Alt umulig"</TimelineDescription>
+              </TimelineItem>
+              <TimelineItem>
+                <Time>10:15</Time>
+                <TimelineHeader>Thomas Fauskanger</TimelineHeader>
+                <TimelineDescription>Death detection i Elden Ring</TimelineDescription>
+              </TimelineItem>
+              <TimelineItem>
+                <Time>10:30</Time>
+                <TimelineHeader>Paal Kristian</TimelineHeader>
+                <TimelineDescription>Hva skal til for at hobbyprosjektet faktisk ser dagens lys?</TimelineDescription>
+              </TimelineItem>
+              <TimelineItem>
+                <Time>10:45</Time>
+                <TimelineHeader>Knut Moldekleiv</TimelineHeader>
+                <TimelineDescription>simulering av electrocoat paint prosessen</TimelineDescription>
+              </TimelineItem>
             </TimelineItem>
             <TimelineItem>
               <Time>11:00</Time>
