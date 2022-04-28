@@ -57,7 +57,7 @@ const Tracks = () => {
         <TrackTitle>Et teknisk dypdykk i hjernen</TrackTitle>
         <TrackPresenter>Marius Gerdes</TrackPresenter>
         <TrackDescription>
-          Ta med en laptop med Python 3 installert.
+          Ta med en laptop med Python 3 og Anaconda installert.
         </TrackDescription>
         <ol>
           <Participant>Malin</Participant>
