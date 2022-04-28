@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import SocialActivities from '../components/SocialActivities'
 import Tracks from '../components/Tracks'
 import KeynoteDescription from '../components/KeynoteDescription'
-import LastUpdated from "../components/LastUpdated";
+import LastUpdated from '../components/LastUpdated'
 
 const Home: NextPage = () => {
   return (
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             </TimelineItem>
             <TimelineItem>
               <Time>~19:45</Time>
-              <TimelineHeader>Ankomst Flåm</TimelineHeader>
+              <TimelineHeader>Ankomst Fretheim Hotell Flåm</TimelineHeader>
               <TimelineDescription>
                 Vi legger til rette for en mest mulig smidig innsjekk ved
                 ankomst.
@@ -95,8 +95,15 @@ const Home: NextPage = () => {
               <TimelineHeader>Fagspor slutt</TimelineHeader>
             </TimelineItem>
             <TimelineItem>
-              <Time>16:00</Time>
+              <Time>15:50 / 16:00</Time>
               <TimelineHeader>Sosiale Aktiviter</TimelineHeader>
+              <p className="mb-4">
+                ℹ️
+                <span className="ml-2">
+                  Alle sosiale aktiviteter har oppmøte i resepsjonen, og så går
+                  vi i samlet flokk ned til kaien.
+                </span>
+              </p>
               <SocialActivities />
             </TimelineItem>
             <TimelineItem>

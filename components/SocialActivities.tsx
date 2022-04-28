@@ -1,4 +1,4 @@
-import Accordion from "./Accordion";
+import Accordion from './Accordion'
 
 const ActivityTitle = ({ children }: React.HTMLAttributes<HTMLLIElement>) => {
   return (
@@ -11,9 +11,11 @@ const ActivityTitle = ({ children }: React.HTMLAttributes<HTMLLIElement>) => {
 const ActivityDescription = ({
   children,
 }: React.HTMLAttributes<HTMLLIElement>) => {
-    return (
-            <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-300 lg:text-base">{children}</p>
-    )
+  return (
+    <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-300 lg:text-base">
+      {children}
+    </p>
+  )
 }
 
 const Participant = ({ children }: React.HTMLAttributes<HTMLLIElement>) => {
@@ -27,9 +29,12 @@ const SocialActivities = () => {
       className="mb-2 grid grid-cols-1 gap-4 text-sm font-normal text-gray-500 dark:text-gray-400 sm:grid-cols-2 md:grid-cols-2 lg:text-base"
     >
       <div>
-        <ActivityTitle>RIB og ostesmaking</ActivityTitle>
+        <ActivityTitle>
+          RIB og ostesmaking | OBS! Oppmøte <strong>15:50</strong>
+        </ActivityTitle>
         <ActivityDescription>
-          Dere får utdelt overlevelsesdrakt, men husk å kle dere etter vær og vind.
+          Dere får utdelt overlevelsesdrakt, men husk å kle dere etter vær og
+          vind.
         </ActivityDescription>
         <ol>
           <Participant>Wenche</Participant>
@@ -57,9 +62,10 @@ const SocialActivities = () => {
       <div>
         <ActivityTitle>Badstu</ActivityTitle>
         <ActivityDescription>
-          Husk badetøy!<br/>
-          Det er ikke garderobe ved badstuen, så ha på deg noe over badetøyet når vi går.<br/>
-          Vi går sammen fra resepsjonen til badstuen.
+          Husk badetøy!
+          <br />
+          Det er ikke garderobe ved badstuen, så ha på deg noe over badetøyet
+          når vi går.
         </ActivityDescription>
         <ol>
           <Participant>Alexander</Participant>
@@ -74,9 +80,7 @@ const SocialActivities = () => {
       </div>
       <div>
         <ActivityTitle>Kajakk</ActivityTitle>
-        <ActivityDescription>
-          Kle dere etter vær og vind.
-        </ActivityDescription>
+        <ActivityDescription>Kle dere etter vær og vind.</ActivityDescription>
         <ol>
           <Participant>Ken-Thomas</Participant>
           <Participant>Arvid</Participant>
