@@ -9,6 +9,7 @@ const ghPagesSettings =
     : {}
 
 const buildTime = new Date().toLocaleString('no', {
+    timeZone: 'Europe/Oslo',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
