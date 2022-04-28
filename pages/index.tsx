@@ -23,6 +23,9 @@ const Home: NextPage = () => {
 
       <main className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <Navbar />
+        <span className=" text-gray-500 dark:text-gray-400">
+          Sist oppdatert: {new Date().toDateString() + ' - ' + new Date().toLocaleTimeString().slice(0, 5)}
+        </span>
         <h1 className="my-4 text-2xl font-bold md:my-8 lg:my-12 lg:text-4xl">
           <span className="dark:text-white">Program</span>
         </h1>
