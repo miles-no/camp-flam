@@ -12,7 +12,7 @@ const ActivityDescription = ({
   children,
 }: React.HTMLAttributes<HTMLLIElement>) => {
   return (
-    <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-300 lg:text-base">
+    <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-300 lg:text-sm">
       {children}
     </p>
   )
@@ -80,7 +80,13 @@ const SocialActivities = () => {
       </div>
       <div>
         <ActivityTitle>Kajakk</ActivityTitle>
-        <ActivityDescription>Kle dere etter vær og vind.</ActivityDescription>
+        <ActivityDescription>
+          Man får våtdrakt og redningsvest. Ta med badetøy til å ha under, og
+          anbefaler lette tursko eller lignende til å bruke i kajakken.
+          <br />
+          Edvard kan ta hånd om evnt. overskytende klær det ikke er plass til i
+          kajakken.
+        </ActivityDescription>
         <ol>
           <Participant>Ken-Thomas</Participant>
           <Participant>Arvid</Participant>
