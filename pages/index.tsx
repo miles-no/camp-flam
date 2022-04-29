@@ -38,7 +38,7 @@ const Home: NextPage = () => {
               </TimelineDescription>
             </TimelineItem>
             <TimelineItem>
-              <Time>20:30</Time>
+              <Time>20:15</Time>
               <TimelineHeader>Middag</TimelineHeader>
               <TimelineDescription>I hotellrestauranten</TimelineDescription>
             </TimelineItem>
