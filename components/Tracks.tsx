@@ -10,7 +10,9 @@ const TrackDescription = ({
   children,
 }: React.HTMLAttributes<HTMLLIElement>) => {
   return (
-      <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">{children}</p>
+    <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400 lg:text-base">
+      {children}
+    </p>
   )
 }
 
@@ -33,10 +35,11 @@ const Tracks = () => {
       className="mb-2 grid grid-cols-1 gap-4 text-sm font-normal text-gray-500 dark:text-gray-400 sm:grid-cols-2 md:grid-cols-3 lg:text-base"
     >
       <div>
-        <TrackTitle>Presentasjonsteknikk</TrackTitle>
+        <TrackTitle>Presentasjonsteknikk | Blåskavlen 2</TrackTitle>
         <TrackPresenter>Hanne Riege</TrackPresenter>
         <TrackDescription>
-          Dere må ha forbederedt en kort presentasjon, den trenger ikke være helt ferdig.
+          Dere må ha forbederedt en kort presentasjon, den trenger ikke være
+          helt ferdig.
         </TrackDescription>
         <ol>
           <Participant>Clementine</Participant>
@@ -54,7 +57,7 @@ const Tracks = () => {
         </ol>
       </div>
       <div>
-        <TrackTitle>Et teknisk dypdykk i hjernen</TrackTitle>
+        <TrackTitle>Et teknisk dypdykk i hjernen | Blåskavlen 1</TrackTitle>
         <TrackPresenter>Marius Gerdes</TrackPresenter>
         <TrackDescription>
           Ta med en laptop med Python 3 og Anaconda installert.
@@ -78,7 +81,7 @@ const Tracks = () => {
         </ol>
       </div>
       <div>
-        <TrackTitle>Digitalisering i offentlig sektor</TrackTitle>
+        <TrackTitle>Digitalisering i offentlig sektor | Rimstigen</TrackTitle>
         <TrackPresenter>Frank Fardal og Malin Rygg</TrackPresenter>
         <TrackDescription>
           Ta med dere selv så har dere alt dere trenger ✨
