@@ -117,7 +117,7 @@ const Home: NextPage = () => {
             <TimelineItem>
               <Time>20:00</Time>
               <TimelineHeader>
-                Ægir Vikinggilde| Peisestuen til Ægir
+                Ægir Vikinggilde | Peisestuen til Ægir
               </TimelineHeader>
               <TimelineDescription>
                 Peisestuen finner du midt mellom puben og hotellet. Dette er et
