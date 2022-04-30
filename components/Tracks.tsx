@@ -65,7 +65,6 @@ const Tracks = () => {
         <ol>
           <Participant>Malin</Participant>
           <Participant>Dag Erik</Participant>
-          <Participant>Arvid</Participant>
           <Participant>Petter</Participant>
           <Participant>Øyvind Almli</Participant>
           <Participant>Lars Eirik</Participant>
@@ -78,6 +77,7 @@ const Tracks = () => {
           <Participant>Yngve Aas</Participant>
           <Participant>Håvard</Participant>
           <Participant>Øyvind Johannessen</Participant>
+          <Participant>Alexander</Participant>
         </ol>
       </div>
       <div>
@@ -92,14 +92,13 @@ const Tracks = () => {
           <Participant>Birte</Participant>
           <Participant>Frode</Participant>
           <Participant>Olav</Participant>
-          <Participant>Vermund</Participant>
           <Participant>Stian Fauskanger</Participant>
-          <Participant>Alexander</Participant>
           <Participant>Wenche</Participant>
           <Participant>Joseph</Participant>
           <Participant>Knut</Participant>
           <Participant>Frank</Participant>
           <Participant>Vegard</Participant>
+          <Participant>Arvid</Participant>
         </ol>
       </div>
     </div>
